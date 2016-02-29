@@ -11,4 +11,4 @@ install:
   - cmd: refreshenv
 
 build_script:
-  - mvn clean validate -B -Dci -fae -Dappveyor
+  - mvn clean install -B -Dci -fae -Dappveyor
